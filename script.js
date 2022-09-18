@@ -30,7 +30,6 @@ Loop through 1 to 100:
 	function updateOutput() {
 		const outputArea = document.getElementById('output');
 		const code = editor.getValue();
-		console.log(code);
 
 		try {
 			const result = ejs.render(code);
@@ -41,7 +40,6 @@ Loop through 1 to 100:
 			outputArea.classList.remove('bg-success');
 			outputArea.classList.add('bg-danger');
 			outputArea.innerText = err.stack;
-			console.log(err.stack);
 		}
 	}
 }
