@@ -1,0 +1,13 @@
+
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+
+#output {
+    font-size: 14px;
+    font-family: 'Inconsolata';
+    height: 100vh;
+    overflow: auto;
+}
+
+#editor {
+    height: 100vh;
+}
