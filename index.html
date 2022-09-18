@@ -11,17 +11,35 @@
 			integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
 			crossorigin="anonymous"
 		/>
-        <link rel="stylesheet" href="styles.css">
+		<meta property="og:type" content="website" />
+		<meta property="og:site_name" content="EJS Playground" />
+		<meta property="og:title" content="EJS Playground" />
+		<meta
+			property="og:description"
+			content="An online EJS playground by Avinsh Vidyarthi"
+		/>
+
+		<meta property="og:locale" content="en_IN" />
+		<meta property="og:locale:alternate" content="hi_IN" />
+
+		<meta
+			property="og:image"
+			content="https://avinashvidyarthi.github.io/img/p2_1.jpg"
+		/>
+		<meta property="og:image:type" content="image/jpeg" />
+		<meta property="og:image:alt" content="description" />
+		<meta property="og:image:width" content="240" />
+		<meta property="og:image:height" content="240" />
 	</head>
 	<body>
-		<div class="container-fluid" style="height: 100%;">
-			<div class="row" style="height: 100%;">
+		<div class="container-fluid" style="height: 100%">
+			<div class="row" style="height: 100%">
 				<div class="col-md-6" id="editor"></div>
 				<div class="col-md-6 text-white font-weight-bold" id="output"></div>
 			</div>
 		</div>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.9.6/ace.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/ejs@3.1.8/ejs.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/ejs@3.1.8/ejs.min.js"></script>
 		<script src="./script.js"></script>
 	</body>
 </html>
